@@ -241,4 +241,44 @@ app_license = "mit"
 # default_log_clearing_doctypes = {
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
-
+fixtures = [
+    {"dt": "Workflow", "filters": [
+        [
+            "name", "in", [
+                "Installation Request workflow"
+            ]
+        ]
+    ]},
+    {"dt": "Notification", "filters": [
+        [
+            "name", "in", [
+                "Installation Request notification"
+            ]
+        ]
+    ]},
+    {"dt": "Role", "filters": [
+        [
+            "name", "in", [
+                "Installation Request Approver",
+                "Technician"
+            ]
+        ]
+    ]},
+    {"dt": "Workspace", "filters": [
+        [
+            "name", "in", [
+                "Service Operations",
+                
+            ]
+        ]
+    ]},
+    {"dt": "Number Card", "filters": [
+        [
+            "name", "in", [
+                "Scheduled requests-Installation Request",
+                "Open requests-Installation Request"
+                
+            ]
+        ]
+    ]},
+]

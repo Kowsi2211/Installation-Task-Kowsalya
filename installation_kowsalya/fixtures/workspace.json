@@ -1,0 +1,50 @@
+[
+ {
+  "charts": [],
+  "content": "[{\"id\":\"WJb5jU4D9D\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Service Operations</span>\",\"col\":12}},{\"id\":\"UcI2y_dbst\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Scheduled requests\",\"col\":4}},{\"id\":\"UAAuniX3wA\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Open requests-Installation Request\",\"col\":4}}]",
+  "custom_blocks": [],
+  "docstatus": 0,
+  "doctype": "Workspace",
+  "for_user": "",
+  "hide_custom": 0,
+  "icon": "image-view",
+  "indicator_color": "green",
+  "is_hidden": 0,
+  "label": "Service Operations",
+  "links": [],
+  "modified": "2025-07-02 16:43:52.855188",
+  "module": null,
+  "name": "Service Operations",
+  "number_cards": [
+   {
+    "label": "Scheduled requests",
+    "number_card_name": "Scheduled requests-Installation Request",
+    "parent": "Service Operations",
+    "parentfield": "number_cards",
+    "parenttype": "Workspace"
+   },
+   {
+    "label": "Open requests-Installation Request",
+    "number_card_name": "Open requests-Installation Request",
+    "parent": "Service Operations",
+    "parentfield": "number_cards",
+    "parenttype": "Workspace"
+   }
+  ],
+  "parent_page": "",
+  "public": 1,
+  "quick_lists": [],
+  "restrict_to_domain": null,
+  "roles": [
+   {
+    "parent": "Service Operations",
+    "parentfield": "roles",
+    "parenttype": "Workspace",
+    "role": "Installation Request Approver"
+   }
+  ],
+  "sequence_id": 33.0,
+  "shortcuts": [],
+  "title": "Service Operations"
+ }
+]

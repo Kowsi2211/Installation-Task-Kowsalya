@@ -1,0 +1,43 @@
+[
+ {
+  "attach_print": 0,
+  "channel": "Email",
+  "condition": "doc.status == \"Scheduled\"",
+  "date_changed": null,
+  "days_in_advance": 0,
+  "docstatus": 0,
+  "doctype": "Notification",
+  "document_type": "Installation Request",
+  "enabled": 1,
+  "event": "Submit",
+  "is_standard": 0,
+  "message": "Scheduled Details\nDate : {{doc.installation_date}}\nStatus : {{doc.status}}\nAssigned : {{doc.assigned_technician}}\nCustomer : {{doc.customer}}\nThank You",
+  "message_type": "Markdown",
+  "method": null,
+  "modified": "2025-07-02 14:49:36.344338",
+  "module": null,
+  "name": "Installation Request notification",
+  "print_format": null,
+  "property_value": null,
+  "recipients": [
+   {
+    "bcc": null,
+    "cc": null,
+    "condition": null,
+    "parent": "Installation Request notification",
+    "parentfield": "recipients",
+    "parenttype": "Notification",
+    "receiver_by_document_field": "",
+    "receiver_by_role": "Technician"
+   }
+  ],
+  "send_system_notification": 1,
+  "send_to_all_assignees": 0,
+  "sender": null,
+  "sender_email": null,
+  "set_property_after_alert": null,
+  "slack_webhook_url": null,
+  "subject": "{{doc.name}} Scheduled",
+  "value_changed": null
+ }
+]
