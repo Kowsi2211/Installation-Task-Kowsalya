@@ -1,0 +1,79 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:customer",
+ "creation": "2025-07-02 11:30:40.448095",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "installation_zone_section",
+  "customer",
+  "preferred_technician",
+  "section_break_sqoj",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_sqoj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Installation Zone",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "installation_zone_section",
+   "fieldtype": "Section Break",
+   "label": " Installation Zone"
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "label": "Customer",
+   "no_copy": 1,
+   "options": "Customer",
+   "unique": 1
+  },
+  {
+   "fieldname": "preferred_technician",
+   "fieldtype": "Link",
+   "label": "Preferred Technician",
+   "options": "User"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-07-02 15:51:29.178571",
+ "modified_by": "Administrator",
+ "module": "Installation Kowsalya",
+ "name": "Installation Zone",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
